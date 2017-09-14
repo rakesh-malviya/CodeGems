@@ -1,0 +1,21 @@
+19:57:38 **** Incremental Build of configuration Debug for project Codility ****
+make all 
+Building file: ../src/Codility.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Codility.d" -MT"src/Codility.d" -o "src/Codility.o" "../src/Codility.cpp"
+cygwin warning:
+  MS-DOS style path detected: C:\java\SynchPatterns\Codility\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/java/SynchPatterns/Codility/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/Codility.cpp
+ 
+Building target: Codility.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Codility.exe"  ./src/Codility.o   
+Finished building target: Codility.exe
+ 
+
+19:57:39 Build Finished (took 1s.148ms)
+
